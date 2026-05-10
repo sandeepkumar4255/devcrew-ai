@@ -4,3 +4,4 @@ crewai
 streamlit
 python-dotenv
 requests
+litellm
