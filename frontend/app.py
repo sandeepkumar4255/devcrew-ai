@@ -34,7 +34,7 @@ if st.button("Analyze Project"):
 
                 # Send Request To FastAPI
                 response = requests.post(
-                    "http://127.0.0.1:8000/analyze",
+                    "https://devcrew-ai-production.up.railway.app/analyze",
                     json={"idea": idea}
                 )
 
