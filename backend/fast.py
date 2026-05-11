@@ -13,7 +13,7 @@ class ProjectRequest(BaseModel):
 # Home route
 @app.get("/")
 def home():
-    return {"message": "CrewAI Backend Running"}
+    return {"message": "Working Successfully"}
 
 
 # Analyze route
@@ -64,6 +64,7 @@ def analyze_project(request: ProjectRequest):
     }
 
 
+# Test route
 @app.get("/test")
 def test():
     return {"status": "API Running"}
